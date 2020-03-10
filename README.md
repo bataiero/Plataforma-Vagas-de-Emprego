@@ -11,11 +11,15 @@ Alterar os dados de conexão do arquivo config.php dentro da pasta Backend
 Pasta onde se encontram os arquivos de regra de negocio do sistema
 
 ## PASTA PLATAFORMA 
-Pasta onde se encontram os arquivos de regra de negocio da aplicação
+Pasta onde se encontram os arquivos de Interface, de acesso público, com a listagem das vagas abertas
 
 ## PASTA ADMIN
+Pasta onde se encontram os arquivos de Interface administrativa, de acesso privado, com os seguintes recursos:
+Cadastro de vaga contendo os campos: title (string, 256 characteres, obrigatório) , description (string, 10000 caracteres, obrigatório), status (enum, obrigatório), workplace (endereço, opcional), salary (dólar americano, opicional).
 
 ##LOGIN
+Interface para login
+
 Para logar o sistema utilize 
 Usuario: Rafael
 Senha: 1234!@
